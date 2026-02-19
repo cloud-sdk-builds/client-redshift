@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-redshift`](https://www.npmjs.com/package/@aws-sdk/client-redshift/v/3.8.0).
+[`@aws-sdk/client-redshift`](https://www.npmjs.com/package/@aws-sdk/client-redshift/v/3.8.1).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift@3.8.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift@3.8.1/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-yE29pN7lVAa8No0wgtmev3pCgYKkWHJiYlNbdp0yn1VTzLBDrINUAR3A3VD7hbxu
+sha384-xgdA1gXvVON45enX3NS/HuUa62XgSSkX2B9C1V4yiaAtlZy4mWOVt9ppEkmErR33
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-redshift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift@3.8.0/index.min.mjs"
+            "@aws-sdk/client-redshift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift@3.8.1/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift@3.8.0/index.min.mjs": "sha384-yE29pN7lVAa8No0wgtmev3pCgYKkWHJiYlNbdp0yn1VTzLBDrINUAR3A3VD7hbxu"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift@3.8.1/index.min.mjs": "sha384-xgdA1gXvVON45enX3NS/HuUa62XgSSkX2B9C1V4yiaAtlZy4mWOVt9ppEkmErR33"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-redshift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift@3.8.0/index.min.mjs"
+                        "@aws-sdk/client-redshift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift@3.8.1/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift@3.8.0/index.min.mjs": "sha384-yE29pN7lVAa8No0wgtmev3pCgYKkWHJiYlNbdp0yn1VTzLBDrINUAR3A3VD7hbxu"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift@3.8.1/index.min.mjs": "sha384-xgdA1gXvVON45enX3NS/HuUa62XgSSkX2B9C1V4yiaAtlZy4mWOVt9ppEkmErR33"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.8.0`)
+* Always pin to a specific version (`@3.8.1`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-redshift/blob/refs/tags/3.8.0/LICENSE
+https://github.com/cloud-sdk-builds/client-redshift/blob/refs/tags/3.8.1/LICENSE
 ```
 
 ---
